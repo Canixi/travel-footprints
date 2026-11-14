@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的旅行足迹 · Travel Journal</title>
+<meta name="description" content="一本关于旅行的私人手账：去过的城市、走过的路、记住的瞬间。">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <div class="brand">
+      <div class="seal" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18M12 3c2.8 2.8 4.2 5.8 4.2 9s-1.4 6.2-4.2 9c-2.8-2.8-4.2-5.8-4.2-9S9.2 5.8 12 3Z"/>
+        </svg>
+      </div>
+      <div>
+        <p class="kicker" id="kicker">My Travel Journal · 2018 — 2025</p>
+        <h1>我的旅行足迹</h1>
+      </div>
+    </div>
+    <div class="mast-filters">
+      <span class="label">旅行摘录</span>
+      <div class="filters" id="filters" role="group" aria-label="按年份筛选"></div>
+    </div>
+    <div class="stats" aria-label="旅行统计">
+      <div class="stat"><strong id="stat-cities">—</strong><span>座城市</span></div>
+      <div class="stat"><strong id="stat-countries">—</strong><span>国家 / 地区</span></div>
+      <div class="stat"><strong id="stat-km">—</strong><span>公里</span></div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="journal" aria-label="旅行摘录列表">
+      <div class="entries" id="entries">
+        <p class="journal-msg">正在翻开手账…</p>
+      </div>
+      <p class="journal-foot" id="journal-foot">用脚步丈量世界</p>
+    </aside>
+
+    <main class="map-stage" aria-label="旅行足迹地图">
+      <div id="map"></div>
+      <button class="view-all" id="view-all" type="button" aria-label="把地图缩放到当前全部足迹">⛶ 全览</button>
+      <svg class="compass" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="29" fill="none" stroke="#b9a582" stroke-width="1"/>
+        <circle cx="32" cy="32" r="23" fill="none" stroke="#cbb995" stroke-width=".6" stroke-dasharray="1 4"/>
+        <path d="M32 12 L36 32 L32 28.5 L28 32 Z" fill="#b23a2b"/>
+        <path d="M32 52 L34 40 L32 42 L30 40 Z" fill="#b9a582"/>
+        <text x="32" y="9" text-anchor="middle" font-size="7" font-family="Georgia, serif" fill="#8a7153">N</text>
+      </svg>
+      <button class="map-note" id="map-note" type="button" aria-label="打开当前旅行笔记">
+        <span class="pin" aria-hidden="true">◉</span>
+        <span class="note-content">
+          <span class="note-date" id="note-date"></span>
+          <span class="note-text" id="note-text"></span>
+        </span>
+      </button>
+    </main>
+  </div>
+</div>
+
+<div class="detail" id="detail" hidden>
+  <div class="detail-backdrop" data-close-detail></div>
+  <article class="detail-card" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+    <button class="detail-close" id="detail-close" type="button" aria-label="关闭旅行笔记">×</button>
+    <div class="detail-cover" id="detail-cover" aria-hidden="true">
+      <span class="detail-char" id="detail-char"></span>
+      <span class="detail-cap" id="detail-cap"></span>
+    </div>
+    <div class="detail-body">
+      <header class="detail-head">
+        <div>
+          <p class="detail-kicker" id="detail-kicker"></p>
+          <h2 id="detail-title"></h2>
+          <p class="detail-subtitle" id="detail-subtitle"></p>
+        </div>
+        <span class="detail-index" id="detail-index"></span>
+      </header>
+      <p class="detail-story" id="detail-story"></p>
+      <div class="detail-gallery" id="detail-gallery" hidden>
+        <p class="gallery-title">旅行照片<span id="detail-photo-count"></span></p>
+        <div class="gallery-grid" id="detail-gallery-grid"></div>
+      </div>
+      <div class="detail-meta">
+        <div><span>具体位置</span><strong id="detail-location"></strong></div>
+        <div><span>距上一站</span><strong id="detail-distance"></strong></div>
+      </div>
+      <div class="tags detail-tags" id="detail-tags"></div>
+      <nav class="detail-nav" aria-label="切换旅程">
+        <button type="button" id="detail-prev">← 上一站</button>
+        <button type="button" id="detail-next">下一站 →</button>
+      </nav>
+    </div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="照片查看器" hidden>
+  <div class="lightbox-backdrop" data-close-lightbox></div>
+  <button class="lightbox-close" id="lightbox-close" type="button" aria-label="关闭照片">×</button>
+  <button class="lightbox-nav prev" id="lightbox-prev" type="button" aria-label="上一张照片">‹</button>
+  <figure class="lightbox-figure">
+    <img id="lightbox-img" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+  <button class="lightbox-nav next" id="lightbox-next" type="button" aria-label="下一张照片">›</button>
+  <span class="lightbox-counter" id="lightbox-counter"></span>
+</div>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

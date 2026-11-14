@@ -1,0 +1,658 @@
+{
+  "site": {
+    "title": "我的旅行足迹",
+    "subtitle": "MY TRAVEL JOURNAL",
+    "description": "一本关于旅行的私人手账：去过的城市、走过的路、记住的瞬间。"
+  },
+  "trips": [
+    {
+      "id": "jiuhuashan-2010",
+      "city": "池州",
+      "cityEn": "Chizhou",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "安徽",
+      "lat": 30.477,
+      "lng": 117.812,
+      "start": "2010-07-15",
+      "end": "2010-07-16",
+      "cover": "",
+      "coverGradient": ["#9ab08a", "#6f8a6a", "#4a5f4a"],
+      "excerpt": "2010 年的夏天，九华山的石阶很长，山里的钟声比想象中更安静。",
+      "story": "2010 年的夏天，第一次去九华山。石阶一层层往山上走，两边的松树把太阳遮得很严，走到半山腰才听见寺庙的钟声。山里的空气很凉，香火味混着木头和雨后的潮气。那天没有赶很多景点，只是慢慢走，记住了一段很长的山路。",
+      "tags": ["九华山", "寺庙", "登山"],
+      "title": "九华山",
+      "location": "安徽省 · 池州市",
+      "labelSide": "bottom"
+    },
+    {
+      "id": "tianmenshan-2013",
+      "city": "芜湖",
+      "cityEn": "Wuhu",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "安徽",
+      "lat": 31.44,
+      "lng": 118.36,
+      "start": "2013-04-13",
+      "end": "2013-04-14",
+      "cover": "",
+      "coverGradient": ["#8fb0a8", "#5f7f7a", "#3a4f4a"],
+      "excerpt": "2013 年的春天，芜湖天门山下的江水拐了个弯，李白诗里的「两岸青山相对出」忽然有了画面。",
+      "story": "2013 年 4 月去芜湖天门山。山不高，沿着江边的小路往上走，能看见长江在脚下拐了一个弯，对岸的山和这边相对着，像一扇打开的门。站在山顶吹了很久的江风，才想起李白那首《望天门山》。下山后在江边坐了一会儿，船慢慢开过去，水面被拉出一条很长的线。",
+      "tags": ["天门山", "长江", "望天门山"],
+      "title": "天门山",
+      "location": "安徽省 · 芜湖市",
+      "labelSide": "left"
+    },
+    {
+      "id": "jingtingshan-2015",
+      "city": "宣城",
+      "cityEn": "Xuancheng",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "安徽",
+      "lat": 30.97,
+      "lng": 118.73,
+      "start": "2015-04-11",
+      "end": "2015-04-12",
+      "cover": "",
+      "coverGradient": ["#a8c9a8", "#7a9a7a", "#4a5f4a"],
+      "excerpt": "2015 年的敬亭山，茶园一层层铺到山脚，李白写过的那座山比诗里更安静。",
+      "story": "2015 年去宣城，特意爬了一趟敬亭山。山不高，石阶两边是茶园和竹林，走到山顶能看见整片城区的屋顶。「相看两不厌，只有敬亭山」，站在那里才觉得这句诗写得很实在。下山后在路边喝了一杯茶，没什么特别的行程，但记了很久。",
+      "tags": ["敬亭山", "茶园", "登山"],
+      "title": "敬亭山",
+      "location": "安徽省 · 宣城市"
+    },
+    {
+      "id": "xiamen-2017",
+      "city": "厦门",
+      "cityEn": "Xiamen",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "福建",
+      "lat": 24.447,
+      "lng": 118.067,
+      "start": "2017-08-12",
+      "end": "2017-08-13",
+      "cover": "",
+      "coverGradient": ["#8ab0c9", "#5f7f9a", "#c9b89a"],
+      "excerpt": "2017 年 8 月的鼓浪屿，海风把老别墅的窗户吹得发亮，巷子里全是钢琴声。",
+      "story": "2017 年 8 月去厦门，坐船上鼓浪屿。岛上的巷子很窄，老别墅的墙被海风吹得发白，阳台上全是三角梅。白天游客很多，拐进小巷才安静下来，能听见某栋房子里传出的钢琴声。傍晚坐在海边看对岸的灯亮起来，船一趟一趟往回开。",
+      "tags": ["鼓浪屿", "海风", "老别墅"],
+      "title": "鼓浪屿",
+      "location": "福建省 · 厦门市"
+    },
+    {
+      "id": "zipengshan-2017",
+      "city": "合肥",
+      "cityEn": "Hefei",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "安徽",
+      "lat": 31.72,
+      "lng": 117.03,
+      "start": "2017-09-16",
+      "end": "2017-09-16",
+      "cover": "assets/photos/hefei-2017/hefei-dogs.jpg",
+      "coverGradient": ["#9ab08a", "#6f8a6a", "#b89a6a"],
+      "photos": [
+        {
+          "src": "assets/photos/hefei-2017/hefei-dogs.jpg",
+          "thumb": "assets/photos/hefei-2017/hefei-dogs-thumb.jpg",
+          "caption": "合肥 · 车旁晒太阳的小狗"
+        }
+      ],
+      "excerpt": "2017 年 9 月的紫蓬山，树还绿着，下山时遇到两只晒太阳的小狗。",
+      "story": "2017 年 9 月去合肥，抽了半天去紫蓬山。山不高，树很密，山道一路都是阴凉。走到半山腰能看见远处的城市，风里已经有了一点秋天的意思。下山时在停车场遇到两只晒太阳的小狗，趴在地上不肯动，蹲下来摸了很久。没什么特别的故事，但那天很舒服。",
+      "tags": ["紫蓬山", "登山", "小狗"],
+      "title": "紫蓬山",
+      "location": "安徽省 · 合肥市",
+      "labelSide": "left"
+    },
+    {
+      "id": "maanshan-2020",
+      "city": "马鞍山",
+      "cityEn": "Ma'anshan",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "安徽",
+      "lat": 31.6705,
+      "lng": 118.5068,
+      "start": "2020-10-17",
+      "end": "2020-10-18",
+      "cover": "",
+      "coverGradient": ["#b89a6a", "#8a744f", "#4a5f4a"],
+      "excerpt": "十月的马鞍山，长江边的风已经有了秋天的凉意，城市安静得刚刚好。",
+      "story": "十月的马鞍山，长江边已经有了秋天的凉意。沿着江堤走，风把水面吹出一层层的纹，远处的船慢慢开过去。城市不大，街道很宽，走累了就找一家小店吃饭。没有特别的行程，但那种安静的感觉一直记得。",
+      "tags": ["马鞍山", "长江", "秋日"],
+      "location": "安徽省 · 马鞍山市"
+    },
+    {
+      "id": "wuhu-2023-fantawild",
+      "city": "芜湖",
+      "cityEn": "Wuhu",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "安徽",
+      "lat": 31.38,
+      "lng": 118.43,
+      "start": "2023-01-14",
+      "end": "2023-01-15",
+      "cover": "assets/photos/wuhu-2023-fantawild/fantawild-lantern.jpg",
+      "coverGradient": ["#8a9bd9", "#5f6aa8", "#3a3f6a"],
+      "photos": [
+        {
+          "src": "assets/photos/wuhu-2023-fantawild/fantawild-chinese-year.jpg",
+          "thumb": "assets/photos/wuhu-2023-fantawild/fantawild-chinese-year-thumb.jpg",
+          "caption": "方特中国年 · 灯笼与塔"
+        },
+        {
+          "src": "assets/photos/wuhu-2023-fantawild/fantawild-lantern.jpg",
+          "thumb": "assets/photos/wuhu-2023-fantawild/fantawild-lantern-thumb.jpg",
+          "caption": "方特中国年 · 山海经灯组"
+        },
+        {
+          "src": "assets/photos/wuhu-2023-fantawild/fantawild-fireworks.jpg",
+          "thumb": "assets/photos/wuhu-2023-fantawild/fantawild-fireworks-thumb.jpg",
+          "caption": "方特 · 烟花"
+        }
+      ],
+      "excerpt": "一月的芜湖很冷，方特中国年的灯组和烟花，把冬天点亮了。",
+      "story": "一月的芜湖很冷，方特园区里却是一派过年的热闹。「方特中国年」的灯笼挂满了头顶，山海经的灯组比人还高，蓝色的神女在夜里亮着。白天把能玩的项目刷了一遍，晚上等烟花在灯海上空炸开，才觉得这一趟来得值。",
+      "tags": ["方特中国年", "山海经灯组", "烟花"],
+      "title": "方特",
+      "location": "安徽省 · 芜湖市",
+      "labelSide": "left"
+    },
+    {
+      "id": "shanghai-2023",
+      "city": "上海",
+      "cityEn": "Shanghai",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "上海",
+      "lat": 31.2304,
+      "lng": 121.4737,
+      "start": "2023-07-15",
+      "end": "2023-07-16",
+      "cover": "",
+      "coverGradient": ["#8ab0a8", "#5f7f8a", "#3a4f5a"],
+      "excerpt": "七月的上海又闷又热，梧桐树影、老房子和江边的风，把夏天拉得很长。",
+      "story": "七月的上海又闷又热。白天在梧桐树下走，老房子的窗子开着，路边咖啡店的冰块化得很快。傍晚去江边，风终于凉下来，对岸的灯一盏盏亮起来，游船慢慢开过去。回到弄堂口，便利店的门一开一合，夏天好像还很长。",
+      "tags": ["梧桐区", "江边", "夏日"],
+      "location": "上海市",
+      "labelSide": "bottom"
+    },
+    {
+      "id": "nantong-2023",
+      "city": "南通",
+      "cityEn": "Nantong",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "江苏",
+      "lat": 31.9802,
+      "lng": 120.8943,
+      "start": "2023-09-01",
+      "end": "2023-09-02",
+      "cover": "assets/photos/nantong-2023/nantong-west-station.jpg",
+      "coverGradient": ["#a8c9a8", "#7a9a7a", "#4a5f4a"],
+      "photos": [
+        {
+          "src": "assets/photos/nantong-2023/nantong-west-station.jpg",
+          "thumb": "assets/photos/nantong-2023/nantong-west-station-thumb.jpg",
+          "caption": "南通西站 · 到站的夜"
+        }
+      ],
+      "excerpt": "到南通的时候已经是晚上，南通西站的站台很空，城市比想象中安静。",
+      "story": "到南通的时候已经是晚上，南通西站的站台很空，白色的顶棚被灯照得很亮，拖着箱子走出去，城市已经安静下来。第二天沿着河边慢慢走，老房子和新楼挨在一起，路边的小店刚把桌椅摆到门口。没有特别的行程，走到哪算哪，反而记住了很多细碎的瞬间。",
+      "tags": ["南通西站", "城市漫游"],
+      "location": "江苏省 · 南通市"
+    },
+    {
+      "id": "nanjing-2023-niushoushan",
+      "city": "南京",
+      "cityEn": "Nanjing",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "江苏",
+      "lat": 31.9018,
+      "lng": 118.7486,
+      "start": "2023-10-28",
+      "end": "2023-10-28",
+      "cover": "assets/photos/nanjing-2023-niushoushan/foding-palace.jpg",
+      "coverGradient": ["#b89a6a", "#8a7455", "#3f4f4a"],
+      "photos": [
+        {
+          "src": "assets/photos/nanjing-2023-niushoushan/foding-palace.jpg",
+          "thumb": "assets/photos/nanjing-2023-niushoushan/foding-palace-thumb.jpg",
+          "caption": "佛顶宫 · 穹顶与卧佛"
+        },
+        {
+          "src": "assets/photos/nanjing-2023-niushoushan/foding-pagoda.jpg",
+          "thumb": "assets/photos/nanjing-2023-niushoushan/foding-pagoda-thumb.jpg",
+          "caption": "佛顶塔 · 山间的塔"
+        },
+        {
+          "src": "assets/photos/nanjing-2023-niushoushan/foding-pagoda-close.jpg",
+          "thumb": "assets/photos/nanjing-2023-niushoushan/foding-pagoda-close-thumb.jpg",
+          "caption": "佛顶塔 · 仰望"
+        }
+      ],
+      "excerpt": "十月的南京，牛首山的风从山脚一路吹到佛顶塔，佛顶宫里的光安静得让人放慢脚步。",
+      "story": "十月的南京已经有了秋天的凉意。去牛首山那天天气很好，山道两边的树影一层叠着一层。走进佛顶宫，灯光很暗，卧佛和蓝色的穹顶在灯里慢慢显出来，人不自觉地放轻了脚步。出来时抬头看佛顶塔，塔檐一层叠着一层，背后是很干净的天。整座山都很安静。",
+      "tags": ["牛首山", "佛顶宫", "佛顶塔"],
+      "title": "牛首山",
+      "location": "江苏省 · 南京市"
+    },
+    {
+      "id": "harbin-2024",
+      "city": "哈尔滨",
+      "cityEn": "Harbin",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "黑龙江",
+      "lat": 45.8038,
+      "lng": 126.5349,
+      "start": "2024-04-27",
+      "end": "2024-04-27",
+      "cover": "assets/photos/harbin-2024/songhua-sunset.jpg",
+      "coverGradient": ["#8fa7c4", "#6b7f9a", "#7a3f3a"],
+      "photos": [
+        {
+          "src": "assets/photos/harbin-2024/flood-monument.jpg",
+          "thumb": "assets/photos/harbin-2024/flood-monument-thumb.jpg",
+          "caption": "防洪纪念塔 · 松花江畔"
+        },
+        {
+          "src": "assets/photos/harbin-2024/songhua-sunset.jpg",
+          "thumb": "assets/photos/harbin-2024/songhua-sunset-thumb.jpg",
+          "caption": "松花江 · 日落"
+        },
+        {
+          "src": "assets/photos/harbin-2024/harbin-station.jpg",
+          "thumb": "assets/photos/harbin-2024/harbin-station-thumb.jpg",
+          "caption": "哈尔滨站 · 夜色"
+        }
+      ],
+      "excerpt": "四月的哈尔滨还带着冬天的尾巴，松花江的日落、中央大街的面包石和圣索菲亚的绿穹顶，是这座城最直接的名片。",
+      "story": "四月的哈尔滨还有点冷。下午去江边，防洪纪念塔下的花开得正好，太阳慢慢落到松花江上，缆车从头顶过去。傍晚在中央大街走，面包石被脚步磨得发亮，两边是巴洛克式的楼和卖红肠、马迭尔冰棍的小店。天黑后去圣索菲亚大教堂，绿色的穹顶在灯里很安静。回车站时钟楼已经亮起来了。",
+      "tags": ["松花江", "中央大街", "圣索菲亚大教堂"],
+      "location": "黑龙江省 · 哈尔滨市"
+    },
+    {
+      "id": "nanjing-2024-gem",
+      "city": "南京",
+      "cityEn": "Nanjing",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "江苏",
+      "lat": 32.0086,
+      "lng": 118.7267,
+      "start": "2024-06-23",
+      "end": "2024-06-23",
+      "cover": "assets/photos/nanjing-2024-gem/gem-stage.jpg",
+      "coverGradient": ["#d98ab8", "#8a5a9a", "#3a2f5a"],
+      "photos": [
+        {
+          "src": "assets/photos/nanjing-2024-gem/gem-stage.jpg",
+          "thumb": "assets/photos/nanjing-2024-gem/gem-stage-thumb.jpg",
+          "caption": "奥体中心 · I AM GLORIA 现场"
+        },
+        {
+          "src": "assets/photos/nanjing-2024-gem/gem-lightstick.jpg",
+          "thumb": "assets/photos/nanjing-2024-gem/gem-lightstick-thumb.jpg",
+          "caption": "I AM GLORIA · 荧光棒"
+        },
+        {
+          "src": "assets/photos/nanjing-2024-gem/gem-circle.jpg",
+          "thumb": "assets/photos/nanjing-2024-gem/gem-circle-thumb.jpg",
+          "caption": "奥体中心 · 星海与白纱"
+        }
+      ],
+      "excerpt": "六月的南京，奥体中心的星海亮起来，全场跟着邓紫棋一起唱。",
+      "story": "六月的南京已经有点闷热。晚上去奥体中心看邓紫棋的「I AM GLORIA」世界巡回演唱会，场馆外全是举着荧光棒的人。灯光暗下来，大屏幕上是她穿着白纱、站在星海里的样子，第一句歌声出来，全场就跟着一起唱。散场后跟着人流走了很久，地铁里还全是同一种旋律。",
+      "tags": ["邓紫棋", "I AM GLORIA", "奥体中心"],
+      "title": "邓紫棋演唱会",
+      "location": "江苏省 · 南京市"
+    },
+    {
+      "id": "changsha-2024",
+      "city": "长沙",
+      "cityEn": "Changsha",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "湖南",
+      "lat": 28.2282,
+      "lng": 112.9388,
+      "start": "2024-06-15",
+      "end": "2024-06-15",
+      "cover": "assets/photos/changsha-2024/changsha-night.jpg",
+      "coverGradient": ["#d98a5a", "#a85a4a", "#3f5f4a"],
+      "photos": [
+        {
+          "src": "assets/photos/changsha-2024/huangxing-road.jpg",
+          "thumb": "assets/photos/changsha-2024/huangxing-road-thumb.jpg",
+          "caption": "黄兴路 · I LOVE CS"
+        },
+        {
+          "src": "assets/photos/changsha-2024/changsha-night.jpg",
+          "thumb": "assets/photos/changsha-2024/changsha-night-thumb.jpg",
+          "caption": "湘江夜景 · 对岸的灯"
+        },
+        {
+          "src": "assets/photos/changsha-2024/mao-statue.jpg",
+          "thumb": "assets/photos/changsha-2024/mao-statue-thumb.jpg",
+          "caption": "橘子洲头 · 青年毛泽东雕像"
+        }
+      ],
+      "excerpt": "傍晚的黄兴路、夜晚的湘江和橘子洲头，六月的长沙把热辣和江风放在了一起。",
+      "story": "六月的长沙热得像一口锅。傍晚先去黄兴路步行街，臭豆腐、糖油粑粑和茶颜悦色的队伍排得很长，路口的「I LOVE CS」气球下面全是拍照的人。天黑了去江边，对岸的楼一栋栋亮起来，倒映在湘江里，像一整面发光的墙。最后去橘子洲头，青年毛泽东雕像在灯里亮着，比白天看起来更安静，湘江的风吹过来，才觉得这一天终于凉快了一点。",
+      "tags": ["黄兴路", "橘子洲头", "湘江"],
+      "location": "湖南省 · 长沙市"
+    },
+    {
+      "id": "huangshan-2024",
+      "city": "黄山",
+      "cityEn": "Huangshan",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "安徽",
+      "lat": 30.1328,
+      "lng": 118.1665,
+      "start": "2024-07-05",
+      "end": "2024-07-05",
+      "cover": "assets/photos/huangshan-2024/huangshan-pine.jpg",
+      "coverGradient": ["#9aae9a", "#6f857a", "#3f4f4a"],
+      "photos": [
+        {
+          "src": "assets/photos/huangshan-2024/huangshan-pine.jpg",
+          "thumb": "assets/photos/huangshan-2024/huangshan-pine-thumb.jpg",
+          "caption": "黄山 · 松与群峰"
+        },
+        {
+          "src": "assets/photos/huangshan-2024/huangshan-flag.jpg",
+          "thumb": "assets/photos/huangshan-2024/huangshan-flag-thumb.jpg",
+          "caption": "黄山 · 山顶的红旗"
+        },
+        {
+          "src": "assets/photos/huangshan-2024/huangshan-peaks.jpg",
+          "thumb": "assets/photos/huangshan-2024/huangshan-peaks-thumb.jpg",
+          "caption": "黄山 · 石峰与松"
+        }
+      ],
+      "excerpt": "七月的黄山，松树从石缝里长出来，石峰一层叠着一层；下山后是宏村的白墙黑瓦。",
+      "story": "七月的黄山，天气比想象中好。坐索道上山，石阶两边全是松树，远处的石峰从云里露出来，一层叠着一层。走到山顶，风很大，有人举着红旗在栏杆边拍照，背景是望不到头的山脊。下山后去了宏村，白墙黑瓦倒映在南湖里，巷子窄得只能过一辆自行车，傍晚游客散去，村子才慢慢安静下来。",
+      "tags": ["黄山", "宏村"],
+      "location": "安徽省 · 黄山市",
+      "labelSide": "left"
+    },
+    {
+      "id": "nanjing-2024-lpl",
+      "city": "南京",
+      "cityEn": "Nanjing",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "江苏",
+      "lat": 32.03,
+      "lng": 118.7,
+      "start": "2024-08-31",
+      "end": "2024-08-31",
+      "cover": "assets/photos/nanjing-2024-lpl/lpl-screen.jpg",
+      "coverGradient": ["#6f8ac9", "#4a5a8a", "#8a3a3a"],
+      "photos": [
+        {
+          "src": "assets/photos/nanjing-2024-lpl/lpl-screen.jpg",
+          "thumb": "assets/photos/nanjing-2024-lpl/lpl-screen-thumb.jpg",
+          "caption": "WBG vs LNG · 大屏幕"
+        },
+        {
+          "src": "assets/photos/nanjing-2024-lpl/lpl-arena.jpg",
+          "thumb": "assets/photos/nanjing-2024-lpl/lpl-arena-thumb.jpg",
+          "caption": "青奥体育公园 · 比赛现场"
+        },
+        {
+          "src": "assets/photos/nanjing-2024-lpl/lpl-ticket.jpg",
+          "thumb": "assets/photos/nanjing-2024-lpl/lpl-ticket-thumb.jpg",
+          "caption": "纪念门票 · 08.31"
+        }
+      ],
+      "excerpt": "八月的南京，青奥体育公园的灯亮到很晚，LPL 全球总决赛资格赛的欢呼声一浪接一浪。",
+      "story": "八月的南京热得发烫。下午去青奥体育公园，场馆外全是穿队服的观众，应援物和灯牌挤在一起，手里的纪念门票还没捂热。比赛开始后，大屏幕上是 WBG 对 LNG，每一次团战都能听见全场一起吸气，再一起喊出来。散场后跟着人流往外走，嗓子有点哑，但脑子还停在场馆里。",
+      "tags": ["LPL", "WBG vs LNG", "青奥体育公园"],
+      "title": "LPL 全球总决赛资格赛",
+      "location": "江苏省 · 南京市"
+    },
+    {
+      "id": "chongqing-2024",
+      "city": "重庆",
+      "cityEn": "Chongqing",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "重庆",
+      "lat": 29.563,
+      "lng": 106.5516,
+      "start": "2024-12-07",
+      "end": "2024-12-07",
+      "cover": "assets/photos/chongqing-2024/hongyadong-night.jpg",
+      "coverGradient": ["#d98a4a", "#8a4a3a", "#2e3a4a"],
+      "photos": [
+        {
+          "src": "assets/photos/chongqing-2024/hongyadong-night.jpg",
+          "thumb": "assets/photos/chongqing-2024/hongyadong-night-thumb.jpg",
+          "caption": "洪崖洞 · 吊脚楼的灯"
+        },
+        {
+          "src": "assets/photos/chongqing-2024/dongshuimen-bridge.jpg",
+          "thumb": "assets/photos/chongqing-2024/dongshuimen-bridge-thumb.jpg",
+          "caption": "东水门大桥 · 长江夜色"
+        },
+        {
+          "src": "assets/photos/chongqing-2024/xiahaoli-stairs.jpg",
+          "thumb": "assets/photos/chongqing-2024/xiahaoli-stairs-thumb.jpg",
+          "caption": "下浩里 · 这很重庆"
+        }
+      ],
+      "excerpt": "一个晚上，从解放碑的灯火走到下浩里的石阶，重庆的山城夜色怎么走都不够。",
+      "story": "十二月的重庆雾蒙蒙的。晚上先去解放碑，顺着坡往下走，洪崖洞的吊脚楼一层层挂在崖边，灯亮起来像把整座山城点着了。江边的东水门大桥也亮着，红色的桥身横在江面上。后来去了下浩里，老巷子沿着坡地展开，青砖房、黄桷树和小店挨在一起，台阶上写着「这很重庆」。重庆的路总是上坡下坡，但看风景的借口也多了起来。",
+      "tags": ["洪崖洞", "解放碑", "下浩里"],
+      "location": "重庆市"
+    },
+    {
+      "id": "chengdu-2025",
+      "city": "成都",
+      "cityEn": "Chengdu",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "四川",
+      "lat": 30.5728,
+      "lng": 104.0668,
+      "start": "2025-03-27",
+      "end": "2025-03-27",
+      "cover": "assets/photos/chengdu-2025/chunxi-ifs-panda.jpg",
+      "coverGradient": ["#d98a6a", "#9a6a52", "#3f5f5a"],
+      "photos": [
+        {
+          "src": "assets/photos/chengdu-2025/chunxi-ifs-panda.jpg",
+          "thumb": "assets/photos/chengdu-2025/chunxi-ifs-panda-thumb.jpg",
+          "caption": "春熙路 · IFS 楼上的熊猫"
+        },
+        {
+          "src": "assets/photos/chengdu-2025/kuanzhai-night.jpg",
+          "thumb": "assets/photos/chengdu-2025/kuanzhai-night-thumb.jpg",
+          "caption": "宽窄巷子 · 灯笼与灯树"
+        },
+        {
+          "src": "assets/photos/chengdu-2025/kuanzhai-wall.jpg",
+          "thumb": "assets/photos/chengdu-2025/kuanzhai-wall-thumb.jpg",
+          "caption": "宽窄巷子 · 墙上的两个字"
+        }
+      ],
+      "excerpt": "春熙路的霓虹、太古里的屋檐和宽窄巷子的茶香，三月的成都把热闹和慢节奏放在了一起。",
+      "story": "三月的成都已经有了春天的意思。晚上先去春熙路，街上人很多，商场和霓虹灯挨在一起，IFS 楼上那只爬楼的熊猫在夜色里特别显眼。走累了就钻进旁边的太古里，青瓦坡屋顶下面全是咖啡店和买手店，古和新的界线在这里变得很模糊。后来去了宽窄巷子，巷子里的盖碗茶、糖油果子和采耳摊子挤在一起，找了个竹椅坐下，看人来人往，觉得成都的慢是装不出来的。",
+      "tags": ["春熙路", "太古里", "宽窄巷子"],
+      "location": "四川省 · 成都市",
+      "labelSide": "left"
+    },
+    {
+      "id": "nanjing-2025",
+      "city": "南京",
+      "cityEn": "Nanjing",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "江苏",
+      "lat": 32.0603,
+      "lng": 118.7969,
+      "start": "2025-09-12",
+      "end": "2025-09-13",
+      "cover": "assets/photos/nanjing-2025/concert-stadium.jpg",
+      "coverGradient": ["#8f9bd6", "#5b68a8", "#26305a"],
+      "photos": [
+        {
+          "src": "assets/photos/nanjing-2025/concert-stadium.jpg",
+          "thumb": "assets/photos/nanjing-2025/concert-stadium-thumb.jpg",
+          "caption": "南京奥体中心 · 汪苏泷演唱会"
+        },
+        {
+          "src": "assets/photos/nanjing-2025/concert-lightstick.jpg",
+          "thumb": "assets/photos/nanjing-2025/concert-lightstick-thumb.jpg",
+          "caption": "十万伏特 II · 现场的荧光棒"
+        },
+        {
+          "src": "assets/photos/nanjing-2025/aquarium-fish.jpg",
+          "thumb": "assets/photos/nanjing-2025/aquarium-fish-thumb.jpg",
+          "caption": "海洋馆 · 深蓝色的鱼群"
+        }
+      ],
+      "excerpt": "第一天晚上在奥体中心听汪苏泷，第二天白天在海洋馆看鱼——九月的南京把热闹和安静放在了一起。",
+      "story": "九月的南京还带着夏天的余温。第一天傍晚去奥体中心看汪苏泷的「十万伏特 II」演唱会，灯光暗下来，全场一起唱，忽然觉得这一趟来得值。第二天白天去了海洋馆，蓝色的水从头顶过去，鱼群慢慢游，走累了就在玻璃前站着发呆。",
+      "tags": ["汪苏泷", "演唱会", "海洋馆"],
+      "title": "汪苏泷演唱会",
+      "location": "江苏省 · 南京市"
+    },
+    {
+      "id": "beijing-2026",
+      "city": "北京",
+      "cityEn": "Beijing",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "北京",
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "start": "2026-03-29",
+      "end": "2026-03-30",
+      "cover": "assets/photos/beijing-2026/tiananmen.jpg",
+      "coverGradient": ["#c26a52", "#8e3f34", "#d9b06b"],
+      "photos": [
+        {
+          "src": "assets/photos/beijing-2026/tiananmen.jpg",
+          "thumb": "assets/photos/beijing-2026/tiananmen-thumb.jpg",
+          "caption": "天安门 · 三月的晴天"
+        },
+        {
+          "src": "assets/photos/beijing-2026/universal-globe.jpg",
+          "thumb": "assets/photos/beijing-2026/universal-globe-thumb.jpg",
+          "caption": "北京环球影城 · 入口地球"
+        },
+        {
+          "src": "assets/photos/beijing-2026/minions-fountain.jpg",
+          "thumb": "assets/photos/beijing-2026/minions-fountain-thumb.jpg",
+          "caption": "小黄人乐园 · 水上喷泉"
+        }
+      ],
+      "excerpt": "红墙、琉璃瓦，还有过山车——三月的北京把古老和热闹放在了一起。",
+      "story": "三月的北京，风里还有点冬天的尾巴。上午去天安门广场，人群已经排得很长，远远看着那面红旗，忽然觉得课本里的画面走到了眼前。故宫逛了整整半天，红墙和琉璃瓦怎么拍都不重样。第二天把时间全留给了环球影城，从城堡一路玩到日落。",
+      "tags": ["天安门", "故宫", "环球影城"],
+      "location": "北京市"
+    },
+    {
+      "id": "anqing-2026",
+      "city": "安庆",
+      "cityEn": "Anqing",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "安徽",
+      "lat": 30.5435,
+      "lng": 117.0635,
+      "start": "2026-05-16",
+      "end": "2026-05-17",
+      "cover": "",
+      "coverGradient": ["#8ab0a8", "#5f8a7a", "#3a5f5a"],
+      "excerpt": "五月的安庆，长江边的风已经有了夏天的味道，老城的节奏不紧不慢。",
+      "story": "五月的安庆，长江边的风已经带着一点夏天的潮气。沿着江边走，能看到对岸的船慢慢过去，老城区的巷子里还留着上世纪的房子。没有赶景点，找了一家小店吃了一碗面，又在江边坐到太阳落下去。安庆不是那种一眼惊艳的城市，但很耐看。",
+      "tags": ["安庆", "长江", "初夏"],
+      "location": "安徽省 · 安庆市"
+    },
+    {
+      "id": "dali-2026",
+      "city": "大理",
+      "cityEn": "Dali",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "云南",
+      "lat": 25.6929,
+      "lng": 100.161,
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "cover": "assets/photos/dali-2026/dali-town-dusk.jpg",
+      "coverGradient": ["#9fc3d4", "#6f98a6", "#d2b177"],
+      "photos": [
+        {
+          "src": "assets/photos/dali-2026/dali-town-dusk.jpg",
+          "thumb": "assets/photos/dali-2026/dali-town-dusk-thumb.jpg",
+          "caption": "大理古城 · 苍山日落"
+        },
+        {
+          "src": "assets/photos/dali-2026/erhai-lake.jpg",
+          "thumb": "assets/photos/dali-2026/erhai-lake-thumb.jpg",
+          "caption": "洱海 · 水边的树"
+        },
+        {
+          "src": "assets/photos/dali-2026/dali-ricefields.jpg",
+          "thumb": "assets/photos/dali-2026/dali-ricefields-thumb.jpg",
+          "caption": "稻田 · 十月的金色"
+        }
+      ],
+      "excerpt": "苍山的云、洱海的风、古城的夜，十月的第一站留在了大理。",
+      "story": "十月的大理已经有些凉意。苍山的云压得很低，山脊一会儿露出来，一会儿又藏回去，沿着山脚走，风里带着松针和潮湿泥土的味道。下午去洱海边，水面被风吹皱，远处的村子只剩一道浅浅的轮廓。晚上回到大理古城，灯一盏盏亮起来，巷子里飘着烤乳扇和鲜花饼的香气。没有赶行程，走累了就找家小店坐下，这大概就是大理最好的打开方式。",
+      "tags": ["苍山", "洱海", "大理古城"],
+      "location": "云南省 · 大理市",
+      "labelSide": "left"
+    },
+    {
+      "id": "lijiang-2026",
+      "city": "丽江",
+      "cityEn": "Lijiang",
+      "country": "中国",
+      "countryEn": "China",
+      "region": "云南",
+      "lat": 26.8721,
+      "lng": 100.2299,
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "cover": "assets/photos/lijiang-2026/yulong-golden.jpg",
+      "coverGradient": ["#c9d8e3", "#8fa3b5", "#6a5748"],
+      "photos": [
+        {
+          "src": "assets/photos/lijiang-2026/yulong-golden.jpg",
+          "thumb": "assets/photos/lijiang-2026/yulong-golden-thumb.jpg",
+          "caption": "玉龙雪山 · 日照金山"
+        },
+        {
+          "src": "assets/photos/lijiang-2026/yulong-meadow.jpg",
+          "thumb": "assets/photos/lijiang-2026/yulong-meadow-thumb.jpg",
+          "caption": "雪山脚下 · 草甸与牛群"
+        },
+        {
+          "src": "assets/photos/lijiang-2026/blue-moon-valley.jpg",
+          "thumb": "assets/photos/lijiang-2026/blue-moon-valley-thumb.jpg",
+          "caption": "蓝月谷 · 碧蓝的水"
+        }
+      ],
+      "excerpt": "雪山在城的尽头，古城在雪山脚下，十月的丽江把两种安静放在了一起。",
+      "story": "十月的丽江早晚很冷，太阳一出来又晒得人发困。去玉龙雪山那天起得很早，越往山上走，空气越薄，云在脚下慢慢散开，雪线比照片里更近。下山后去了蓝月谷，水是透亮的蓝绿色，几截枯木站在水里。下午回到丽江古城，沿着水渠慢慢走，石板路被岁月和脚步磨得发亮，拐进小巷才重新安静下来。晚上坐在客栈的露台上，远处只剩山脊的轮廓，觉得这一趟来得刚刚好。",
+      "tags": ["玉龙雪山", "蓝月谷", "丽江古城"],
+      "location": "云南省 · 丽江市"
+    }
+  ]
+}

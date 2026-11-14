@@ -1,0 +1,9 @@
+{
+  "name": "travel-footprints",
+  "version": "1.0.0",
+  "private": true,
+  "description": "旅行手账风个人足迹地图，零构建静态网站",
+  "scripts": {
+    "start": "node serve.js"
+  }
+}
