@@ -182,6 +182,18 @@ cloudflared tunnel --url http://localhost:4173
 
 > 不要把 `mockups/`、`screenshots/`、`.mimosa/` 上传到公网；部署包已经自动排除。
 
+### 更新站点
+
+仓库已连接到 GitHub 后，修改数据或照片后提交并推送：
+
+```bash
+git add .
+git commit -m "更新旅行数据"
+git push
+```
+
+如果使用 GitHub Pages，推送后会自动更新；如果使用 Cloudflare Pages / 妙搭，按平台设置自动部署或手动重新发布一次。
+
 ## 自定义
 
 - **配色 / 字体**：修改 `css/style.css` 顶部的 `:root` CSS 变量（纸张色、印章红、衬线字体等）
