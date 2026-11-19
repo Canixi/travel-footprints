@@ -68,6 +68,18 @@
     lightboxCounter: document.getElementById('lightbox-counter')
   };
 
+  // 开场加载：等旅行数据和世界地图都就绪后再退场
+  var introGate = { trips: false, map: false, stats: null };
+
+  function introCheckpoint(part, stats) {
+    introGate[part] = true;
+    if (part === 'trips') introGate.stats = stats || null;
+    if (!introGate.trips || !introGate.map) return;
+    if (window.TravelIntro && typeof window.TravelIntro.ready === 'function') {
+      window.TravelIntro.ready(introGate.stats);
+    }
+  }
+
   init();
 
   function init() {
@@ -76,6 +88,7 @@
       initMap();
     } catch (err) {
       console.error('地图初始化失败：', err);
+      introCheckpoint('map');
     }
     loadTrips();
   }
@@ -115,6 +128,12 @@
         renderAll();
         updateKicker(data.site);
         handleInitialHash();
+
+        introCheckpoint('trips', {
+          cities: new Set(state.trips.map(function (t) { return t.city || '未填写'; })).size,
+          countries: new Set(state.trips.map(function (t) { return t.country || '未填写'; })).size,
+          km: Math.round(totalDistance(state.trips))
+        });
       })
       .catch(function (err) {
         console.error('加载 trips.json 失败：', err);
@@ -131,6 +150,7 @@
         els.foot.textContent = '等待数据…';
         setStats(null);
         updateNote(null);
+        introCheckpoint('trips');
       });
   }
 
@@ -445,9 +465,11 @@
           style: { fill: true, fillOpacity: 1, color: 'transparent', weight: 0.7, interactive: false }
         }).addTo(state.map);
         drawGraticule();
+        introCheckpoint('map');
       })
       .catch(function (err) {
         console.warn('世界地图数据加载失败，仅显示足迹点：', err);
+        introCheckpoint('map');
       });
   }
 

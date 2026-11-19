@@ -5,11 +5,65 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>我的旅行足迹 · Travel Journal</title>
 <meta name="description" content="一本关于旅行的私人手账：去过的城市、走过的路、记住的瞬间。">
+<script>
+(function () {
+  try {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var seen = sessionStorage.getItem('travel-intro-seen') === '1';
+    var force = /[?&]intro=1(?:&|$)/.test(location.search);
+    if (reduce || (seen && !force)) document.documentElement.classList.add('no-intro');
+  } catch (err) {}
+})();
+</script>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title">
+  <p class="intro-corner intro-corner--tl">旅行手账 · Travel Journal</p>
+  <p class="intro-corner intro-corner--tr">31.35° N · 118.43° E</p>
+
+  <div class="intro-inner">
+    <p class="intro-kicker">My Travel Journal</p>
+    <h2 class="intro-title" id="intro-title">我的旅行足迹</h2>
+    <p class="intro-sub">去过的城市，走过的路，记住的瞬间。</p>
+
+    <div class="intro-route" aria-hidden="true">
+      <svg viewBox="0 0 760 240" preserveAspectRatio="xMidYMid meet">
+        <path class="route-base" d="M 36 186 C 130 178, 168 92, 268 96 S 390 198, 486 150 S 628 54, 724 78"/>
+        <path class="route-line" id="intro-route-line" pathLength="1" d="M 36 186 C 130 178, 168 92, 268 96 S 390 198, 486 150 S 628 54, 724 78"/>
+        <circle class="route-dot" cx="36" cy="186" r="3.5"/>
+        <circle class="route-dest" id="intro-route-dest" cx="724" cy="78" r="4"/>
+        <g class="intro-plane" id="intro-plane">
+          <path d="M 15 0 L -10 8 L -3.5 0 L -10 -8 Z"/>
+        </g>
+        <text class="route-label" x="36" y="216" text-anchor="middle">出发</text>
+        <text class="route-label" x="724" y="112" text-anchor="middle">抵达</text>
+      </svg>
+    </div>
+
+    <div class="intro-progress">
+      <div class="intro-progress-head">
+        <span id="intro-phase">正在收拾行李</span>
+        <span class="intro-percent" id="intro-percent">0%</span>
+      </div>
+      <div class="intro-bar" id="intro-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <span class="intro-bar-fill" id="intro-bar-fill"></span>
+      </div>
+      <div class="intro-stats" id="intro-stats">
+        <span><strong id="intro-stat-cities">0</strong> 座城市</span>
+        <span class="intro-stats-sep" aria-hidden="true">·</span>
+        <span><strong id="intro-stat-countries">0</strong> 个国家 / 地区</span>
+        <span class="intro-stats-sep" aria-hidden="true">·</span>
+        <span><strong id="intro-stat-km">0</strong> 公里</span>
+      </div>
+    </div>
+  </div>
+
+  <button class="intro-skip" id="intro-skip" type="button">跳过</button>
+</div>
+
 <div class="page">
   <header class="masthead">
     <div class="brand">
@@ -113,6 +167,7 @@
 
 <script src="vendor/leaflet/leaflet.js"></script>
 <script src="vendor/topojson-client.min.js"></script>
+<script src="js/intro.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
